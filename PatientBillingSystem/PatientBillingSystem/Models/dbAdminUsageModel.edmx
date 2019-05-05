@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="dbPatientBillingModel4.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Admintbl">
+          <Key>
+            <PropertyRef Name="Admin_ID" />
+          </Key>
+          <Property Name="Admin_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Admin_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Gender" Type="char" MaxLength="10" Nullable="false" />
+          <Property Name="PhoneNo" Type="bigint" Nullable="false" />
+          <Property Name="A_email" Type="nvarchar" MaxLength="50" />
+          <Property Name="A_address" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="userType" Type="int" Nullable="false" />
+          <Property Name="A_userName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="A_Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="dbPatientBillingModel4StoreContainer">
+          <EntitySet Name="Admintbl" EntityType="Self.Admintbl" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="dbPatientBillingModel4" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Admintbl">
+          <Key>
+            <PropertyRef Name="Admin_ID" />
+          </Key>
+          <Property Name="Admin_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Admin_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Gender" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="PhoneNo" Type="Int64" Nullable="false" />
+          <Property Name="A_email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="A_address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="userType" Type="Int32" Nullable="false" />
+          <Property Name="A_userName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="A_Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="dbPatientBillingEntities4" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Admintbls" EntityType="Self.Admintbl" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="dbPatientBillingModel4StoreContainer" CdmEntityContainer="dbPatientBillingEntities4">
+          <EntitySetMapping Name="Admintbls">
+            <EntityTypeMapping TypeName="dbPatientBillingModel4.Admintbl">
+              <MappingFragment StoreEntitySet="Admintbl">
+                <ScalarProperty Name="Admin_ID" ColumnName="Admin_ID" />
+                <ScalarProperty Name="Admin_Name" ColumnName="Admin_Name" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="PhoneNo" ColumnName="PhoneNo" />
+                <ScalarProperty Name="A_email" ColumnName="A_email" />
+                <ScalarProperty Name="A_address" ColumnName="A_address" />
+                <ScalarProperty Name="userType" ColumnName="userType" />
+                <ScalarProperty Name="A_userName" ColumnName="A_userName" />
+                <ScalarProperty Name="A_Password" ColumnName="A_Password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

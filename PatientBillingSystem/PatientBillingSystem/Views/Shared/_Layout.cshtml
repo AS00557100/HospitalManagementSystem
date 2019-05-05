@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - DFHS</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+</head>
+<body>
+            <nav id="navbar" class="navbar navbar-default navbar-fixed-top navbar-dark bg-primary">
+                <div class="container-fluid ">
+                    <div class="navbar-brand active">
+                        @Html.ActionLink("Dr.Fred Hospital Services", "Index", "Home")
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Services", "Services", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        <li>@Html.ActionLink("Help", "Help", "Home")</li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                        <li>@Html.ActionLink("Register", "patientRegister", "RegisterUser")</li>
+                        <li>@Html.ActionLink("Log In", "Index", "User")</li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="mysidenav" class="container-fluid">
+
+             </div>
+            <div class="container body-content">
+                @RenderBody()
+                <hr />
+                <footer>
+                    <p>&copy; @DateTime.Now.Year - Dr.Fred Hospital Services</p>
+                </footer>
+            </div>
+            @Scripts.Render("~/bundles/jquery")
+            @Scripts.Render("~/bundles/bootstrap")
+            @RenderSection("scripts", required: false)
+
+</body>
+</html>

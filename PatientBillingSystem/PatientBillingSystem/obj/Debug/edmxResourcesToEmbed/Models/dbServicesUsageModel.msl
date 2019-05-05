@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbPatientBillingModel5StoreContainer" CdmEntityContainer="dbPatientBillingEntities5">
+    <EntitySetMapping Name="servicesofferedtbls">
+      <EntityTypeMapping TypeName="dbPatientBillingModel5.servicesofferedtbl">
+        <MappingFragment StoreEntitySet="servicesofferedtbl">
+          <ScalarProperty Name="Service_ID" ColumnName="Service_ID" />
+          <ScalarProperty Name="Service_Description" ColumnName="Service_Description" />
+          <ScalarProperty Name="Cost_Of_Service" ColumnName="Cost_Of_Service" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

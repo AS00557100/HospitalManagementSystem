@@ -1,0 +1,91 @@
+﻿@model IEnumerable<PatientBillingSystem.Models.Doctortbl>
+
+@{
+    ViewBag.Title = "Doctors List";
+    if (Session["userType"] == null)
+    {
+        Response.Redirect("~/User/Index");
+    }
+}
+
+<div class="navbar  navbar-fixed-top ">
+    <div class="container ">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav h3 lead text-uppercase">
+                <li><a href="/User/Patient">@ViewBag.user</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>@Html.ActionLink("Log out", "LogOut", "User")</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<h2>Doctors List</h2>
+
+<p>
+    <a href="~/RegisterUser/doctorRegister">Add New Doctor</a>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Doctor_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.D_email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.specialization)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Consultation_Fee)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Doctor_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.D_email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.specialization)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Consultation_Fee)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Doctor_ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Doctor_ID })
+            </td>
+        </tr>
+    }
+
+</table>
+
+<div>
+    <br />
+</div>
+<div class="form-group">
+    <div class="col-md-offset-1 col-md-10 center-block">
+        <a href="/User/Admin" class="btn btn-default" role="button">Go Back</a>
+    </div>
+</div>
+<div>
+    <br />
+</div>

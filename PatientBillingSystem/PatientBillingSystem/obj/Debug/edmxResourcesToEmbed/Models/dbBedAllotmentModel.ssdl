@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbPatientBillingModel8.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="dbPatientBillingModel8StoreContainer">
+    <EntitySet Name="Bed_Allocation" EntityType="dbPatientBillingModel8.Store.Bed_Allocation" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Bed_Allocation">
+    <Key>
+      <PropertyRef Name="Allocation_No" />
+    </Key>
+    <Property Name="Allocation_No" Type="int" Nullable="false" />
+    <Property Name="Patient_ID" Type="int" Nullable="true" />
+    <Property Name="Patient_Name" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Ward_Aolloted" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Bed_Aolloted" Type="int" Nullable="true" />
+  </EntityType>
+</Schema>

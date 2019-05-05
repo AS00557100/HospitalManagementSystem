@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbPatientBillingModel7StoreContainer" CdmEntityContainer="dbPatientBillingEntities7">
+    <EntitySetMapping Name="Doc_Available">
+      <EntityTypeMapping TypeName="dbPatientBillingModel7.Doc_Available">
+        <MappingFragment StoreEntitySet="Doc_Available">
+          <ScalarProperty Name="Doctor_No" ColumnName="Doctor_No" />
+          <ScalarProperty Name="Doctor_ID" ColumnName="Doctor_ID" />
+          <ScalarProperty Name="Doctor_Name" ColumnName="Doctor_Name" />
+          <ScalarProperty Name="Doc_Availability" ColumnName="Doc_Availability" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

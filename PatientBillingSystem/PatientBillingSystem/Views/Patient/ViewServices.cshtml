@@ -1,0 +1,47 @@
+﻿@model IEnumerable<PatientBillingSystem.Models.servicesofferedtbl>
+
+@{
+    ViewBag.Title = "Services Offered";
+    if (Session["userType"] == null)
+    {
+        Response.Redirect("~/User/Index");
+    }
+}
+
+<h2>Services Offered</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Service_Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cost_Of_Service)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Service_Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cost_Of_Service)
+            </td>
+        </tr>
+    }
+
+</table>
+<div>
+    <br />
+</div>
+<div class="form-group">
+    <div class="col-md-offset-1 col-md-10 center-block">
+        <a href="/User/Patient" class="btn btn-default" role="button">Go Back</a>
+    </div>
+</div>
+<div>
+    <br />
+</div>

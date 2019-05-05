@@ -1,0 +1,80 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+}
+
+<div style="padding: 10px" class="container-fluid">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="~/Images/CC_blog-banner_new2-977x200.png" alt="Los Angeles" style="height:300px; width:100%;">
+            </div>
+            <div class="item">
+                <img src="~/Images/hospital.jpg" alt="Chicago" style="height:300px; width:100%;">
+            </div>
+            <div class="item">
+                <img src="~/Images/banner_inside.jpg" alt="New york" style="height:300px; width:100%;">
+            </div>
+            <div class="item">
+                <img src="~/Images/gynaecologybanner.png" alt="New york" style="height:300px; width:100%;">
+            </div>
+            <div class="item">
+                <img src="~/Images/hs.jpg" alt="New york" style="height:300px; width:100%;">
+            </div>
+            <div class="item">
+                <img src="~/Images/PALLIATIVE-CARE-banner.jpg" alt="New york" style="height:300px; width:100%;">
+            </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2 class="pane-title">Get Started</h2>
+        <ul class="menu">
+            <li class="first leaf"><a href="~/Home/About" title="About Our Hospital">About Our Hospital</a></li>
+            <li class="leaf"><a href="~/Home/Help" title="Before Your Visit">Before Your Visit</a></li>
+            <li class="leaf"><a href="" title="Find a Doctor">Find a Doctor</a></li>
+            <li class="leaf"><a href="~/Home/Services">Find a General Pediatrician</a></li>
+            <li class="leaf"><a href="~/Home/Contact" title="Getting Here">Getting Here</a></li>
+            <li class="leaf"><a href="~/User" title="Make an Appointment">Make an Appointment</a></li>
+            <li class="leaf"><a href="">Give Us Feedback</a></li>
+        </ul>
+    </div>
+
+    <div class=" center-block col-md-4">
+        <h2 class="pane-title">Ways to Help </h2>
+        <ul class="menu">
+            <li class="first leaf"><a href="" title="Donate">Donate</a></li>
+            <li class="leaf"><a href="" title="Give Blood">Give Blood</a></li>
+            <li class="leaf"><a href="" title="Fundraise">Fundraise</a></li>
+            <li class="leaf"><a href="" title="Special Events">Special Events</a></li>
+            <li class="last leaf"><a href="" title="Volunteer">Volunteer</a></li>
+        </ul>
+    </div>
+    <div class=" col-md-4">
+        <h2 class="pane-title">Myinfo</h2>
+        <p>Log in to view your patient information, appointments, lab results and more!</p>
+        <p><a class="btn-light-blue" href="/User" title="Myinfo">Log In</a>&nbsp;</p>
+    </div>
+</div>
+
+

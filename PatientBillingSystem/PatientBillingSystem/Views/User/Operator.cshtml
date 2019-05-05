@@ -1,0 +1,53 @@
+﻿@model PatientBillingSystem.Models.Operatortbl
+@{
+    if (Session["userType"] == null)
+    {
+        Response.Redirect("~/User/Index");
+    }
+}
+<div class="navbar  navbar-fixed-top ">
+    <div class="container ">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav h3 lead text-uppercase">
+                <li><a href="/User/Operator">@ViewBag.user</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>@Html.ActionLink("Log out", "LogOut", "User")</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<h2>Welcome Operator</h2>
+<div>
+    <a href="~/RegisterUser/patientRegister" class="btn btn-primary btn-lg btn-block" role="button">Register the Patient</a>
+</div>
+<div>
+    <br />
+</div>
+<div>
+    <a href="~/Operator/PatientList" class="btn btn-primary btn-lg btn-block" role="button">View the Patients</a>
+</div>
+<div>
+    <br />
+</div>
+<div>
+    <a href="~/Operator/DoctorAvailability" class="btn btn-primary btn-lg btn-block" role="button">View the Doctors Availability</a>
+</div>
+<div>
+    <br />
+</div>
+<div>
+    <a href="~/Operator/BedsAvailability" class="btn btn-primary btn-lg btn-block" role="button">View Beds Availability</a>
+</div>
+<div>
+    <br />
+</div>
+<div>
+    <a href="~/Operator/BedAllocation" class="btn btn-primary btn-lg btn-block" role="button">Bed Allotment</a>
+</div>
+<div>
+    <br />
+</div>
+<div>
+    <a href="~/Operator/BillGeneration" class="btn btn-primary btn-lg btn-block" role="button">Generate Bill</a>
+</div>

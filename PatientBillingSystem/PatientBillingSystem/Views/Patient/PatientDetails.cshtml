@@ -1,0 +1,93 @@
+﻿@model IEnumerable<PatientBillingSystem.Models.Patienttbl>
+@{
+    ViewBag.Title = "My Details";
+    if (Session["userType"] == null)
+    {
+        Response.Redirect("~/User/Index");
+    }
+}
+
+<div class="navbar  navbar-fixed-top ">
+    <div class="container ">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav h3 lead text-uppercase">
+                <li><a href="/User/Patient">@ViewBag.user</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>@Html.ActionLink("Log out", "LogOut", "User")</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<h2>My Details</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Patient_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Age)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Bloodgroup)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.P_email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.P_address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.P_Status)
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Patient_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bloodgroup)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.P_email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.P_address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.P_Status)
+            </td>
+        </tr>
+    }
+</table>
+<div>
+    <br />
+</div>
+<div class="form-group">
+    <div class="col-md-offset-1 col-md-10 center-block">
+        <a href="/User/Patient" class="btn btn-default" role="button">Go Back</a>
+    </div>
+</div>
+<div>
+    <br />
+</div>

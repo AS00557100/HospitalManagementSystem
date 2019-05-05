@@ -1,0 +1,36 @@
+﻿@model PatientBillingSystem.Models.Doctortbl
+@{
+    if (Session["userType"] == null)
+    {
+        Response.Redirect("~/User/Index");
+    }
+}
+<div class="navbar  navbar-fixed-top ">
+    <div class="container ">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav h3 lead text-uppercase">
+                <li><a href="/User/Doctor">@ViewBag.user</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>@Html.ActionLink("Log out", "LogOut", "User")</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<h2>Welcome Doctor</h2>
+<div>
+    <a href="~/Doctor/EditAvailability" class="btn btn-primary btn-lg btn-block" role="button">Edit Availability</a>
+</div>
+<div>
+    <br />
+</div>
+<div>
+    <a href="~/Doctor/EditPatientStatus" class="btn btn-primary btn-lg btn-block" role="button">Edit Patient Status</a>
+</div>
+<div>
+    <br />
+</div>
+<div>
+    <a href="~/Doctor/PatientsAlloted" class="btn btn-primary btn-lg btn-block" role="button">Patients Alloted</a>
+</div>
+

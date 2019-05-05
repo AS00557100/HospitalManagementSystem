@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbPatientBillingModel6.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="dbPatientBillingModel6StoreContainer">
+    <EntitySet Name="Beds_Available" EntityType="dbPatientBillingModel6.Store.Beds_Available" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Beds_Available">
+    <Key>
+      <PropertyRef Name="service_No" />
+    </Key>
+    <Property Name="service_No" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ward" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="bedNo" Type="int" Nullable="false" />
+    <Property Name="bed_Availability" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+</Schema>

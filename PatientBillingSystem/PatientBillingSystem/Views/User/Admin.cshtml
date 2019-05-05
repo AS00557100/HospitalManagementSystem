@@ -1,0 +1,67 @@
+﻿@model PatientBillingSystem.Models.Admintbl
+@{
+    ViewBag.Title = "Admin";
+    if (Session["userType"] == null)
+    {
+        Response.Redirect("~/User/Index");
+    }
+}
+
+<h2>Welcome @ViewBag.user</h2>
+<div>
+    <a href="~/RegisterUser/adminRegister" class="btn btn-primary btn-lg btn-block" role="button">Register the Admin</a>
+</div>
+<div>
+    <br />
+</div>
+<div>
+    <a href="~/RegisterUser/operatorRegister" class="btn btn-primary btn-lg btn-block" role="button">Register the Operator</a>
+</div>
+<div>
+    <br />
+</div>
+<div>
+    <a href="~/RegisterUser/doctorRegister" class="btn btn-primary btn-lg btn-block" role="button">Register the Doctor</a>
+</div>
+<div>
+    <br />
+</div>
+<div>
+    <a href="~/RegisterUser/patientRegister" class="btn btn-primary btn-lg btn-block" role="button">Register the Patient</a>
+</div>
+<div>
+    <br />
+</div>
+<div>
+    <a href="~/Admin/AdminList" class="btn btn-primary btn-lg btn-block" role="button">View Administrators</a>
+</div>
+<div>
+    <br />
+</div>
+<div>
+    <a href="~/Admin/OperatorList" class="btn btn-primary btn-lg btn-block" role="button">View Operators</a>
+</div>
+<div>
+    <br />
+</div>
+<div>
+    <a href="~/Admin/DoctorList" class="btn btn-primary btn-lg btn-block" role="button">View Doctors</a>
+</div>
+<div>
+    <br />
+</div>
+<div>
+    <a href="~/Admin/PatientList" class="btn btn-primary btn-lg btn-block" role="button">View Patients</a>
+</div>
+<div>
+    <br />
+</div>
+<div>
+    <a href="~/Admin/ServicesList" class="btn btn-primary btn-lg btn-block" role="button">View Services Offered</a>
+</div>
+<div>
+    <br />
+</div>
+<div>
+    <a href="~/RegisterUser/servicesRegister" class="btn btn-primary btn-lg btn-block" role="button">Add Services</a>
+</div>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0ec21e5cbc984c64a643d4f1f52cc491" Name="Diagram1">
+        <EntityTypeShape EntityType="dbPatientBillingModel3.Doctortbl" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbPatientBillingModel3.Admintbl" Width="1.5" PointX="3.75" PointY="0.75" />
+        <EntityTypeShape EntityType="dbPatientBillingModel3.Operatortbl" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="dbPatientBillingModel3.Patienttbl" Width="1.5" PointX="2.75" PointY="4.75" />
+        <EntityTypeShape EntityType="dbPatientBillingModel3.Type_of_users" Width="1.5" PointX="4.75" PointY="4.75" />
+        <EntityTypeShape EntityType="dbPatientBillingModel3.usertbl" Width="1.5" PointX="5.75" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

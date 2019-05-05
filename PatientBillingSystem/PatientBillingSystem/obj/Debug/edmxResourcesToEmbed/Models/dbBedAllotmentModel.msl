@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbPatientBillingModel8StoreContainer" CdmEntityContainer="dbPatientBillingEntities8">
+    <EntitySetMapping Name="Bed_Allocation">
+      <EntityTypeMapping TypeName="IsTypeOf(dbPatientBillingModel8.Bed_Allocation)">
+        <MappingFragment StoreEntitySet="Bed_Allocation">
+          <ScalarProperty Name="Allocation_No" ColumnName="Allocation_No" />
+          <ScalarProperty Name="Patient_ID" ColumnName="Patient_ID" />
+          <ScalarProperty Name="Patient_Name" ColumnName="Patient_Name" />
+          <ScalarProperty Name="Ward_Aolloted" ColumnName="Ward_Aolloted" />
+          <ScalarProperty Name="Bed_Aolloted" ColumnName="Bed_Aolloted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

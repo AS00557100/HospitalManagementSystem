@@ -1,0 +1,96 @@
+﻿@using PatientBillingSystem.Models
+
+@model PatientBillingSystem.Models.usertbl
+
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>User Login</title>
+    <style>
+        #login-div {
+            position: absolute;
+            left: 40%;
+            top: 40%;
+            border: 1px solid #ccc;
+            padding: 10px 10px
+        }
+
+        .field-validation-error {
+            color: red;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="login-div">
+        @using (Html.BeginForm("Authorize", "User", FormMethod.Post))
+        {
+        <table>
+            <tr>
+                <td></td>
+                <td style="text-decoration:underline">Dr.Fred Hospital Services</td>
+            </tr>
+            <tr>
+                <td> @Html.LabelFor(model => model.userName)</td>
+                <td>@Html.EditorFor(model => model.userName)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.userName)
+                </td>
+            </tr>
+            <tr>
+                <td> @Html.LabelFor(model => model.userType)</td>
+                <td>
+                   @*<select name="User Type">
+                    <option value="1"> Admin </option>
+                    <option value="2"> Operator </option>
+                    <option value="3"> Doctor </option>
+                    <option value="4"> Patient </option>
+                    </select>*@
+                    @Html.DropDownListFor(model => model.userType, new SelectList(Enum.GetValues(typeof(UserType))), "None")
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.userType)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.userpassword)</td>
+                <td>@Html.EditorFor(model => model.userpassword)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.userpassword)
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label class="field-validation-error">@Html.DisplayFor(model => model.LoginErrorMsg)</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" name="Login" value="Login" />
+                    <input type="reset" name="Clear" value="Clear" />
+                </td>
+            </tr>
+        </table>
+        }
+    </div>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>

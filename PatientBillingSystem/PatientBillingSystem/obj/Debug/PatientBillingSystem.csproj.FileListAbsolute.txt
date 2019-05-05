@@ -1,0 +1,302 @@
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\ApplicationInsights.config
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\PatientBillingSystem.dll.config
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\PatientBillingSystem.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\PatientBillingSystem.pdb
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\csc.exe
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\csc.exe.config
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\csc.rsp
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\csi.exe
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\csi.exe.config
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\csi.rsp
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.AppContext.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Console.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\vbc.exe
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\vbc.exe.config
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\vbc.rsp
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Antlr3.Runtime.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\EntityFramework.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.Web.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Newtonsoft.Json.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Helpers.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Http.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Mvc.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Optimization.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Razor.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Web.WebPages.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\WebGrease.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\EntityFramework.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Helpers.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Mvc.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Optimization.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Razor.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Web.WebPages.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Newtonsoft.Json.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Antlr3.Runtime.pdb
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Http.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.Web.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\obj\Debug\PatientBillingSystem.csproj.CoreCompileInputs.cache
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\obj\Debug\PatientBillingSystem.csproj.CopyComplete
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\obj\Debug\PatientBillingSystem.dll
+C:\Users\AMBIDI SRINIVAS\Desktop\PatientBillingSystem-master\PatientBillingSystem\PatientBillingSystem\obj\Debug\PatientBillingSystem.pdb
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\ApplicationInsights.config
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\PatientBillingSystem.dll.config
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\PatientBillingSystem.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\PatientBillingSystem.pdb
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\csc.exe
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\csc.exe.config
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\csc.rsp
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\csi.exe
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\csi.exe.config
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\csi.rsp
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.AppContext.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Console.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\vbc.exe
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\vbc.exe.config
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\vbc.rsp
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Antlr3.Runtime.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\EntityFramework.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.Web.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Newtonsoft.Json.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Helpers.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Http.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Mvc.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Optimization.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Razor.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.WebPages.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\WebGrease.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\EntityFramework.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Helpers.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Mvc.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Optimization.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Razor.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.WebPages.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Newtonsoft.Json.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Antlr3.Runtime.pdb
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Http.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.Web.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\obj\Debug\PatientBillingSystem.csproj.CoreCompileInputs.cache
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\obj\Debug\PatientBillingSystem.csproj.CopyComplete
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\obj\Debug\PatientBillingSystem.dll
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\obj\Debug\PatientBillingSystem.pdb
+C:\Users\mslc_i\source\repos\PatientBillingSystem\PatientBillingSystem\obj\Debug\PatientBillingSystem.csprojAssemblyReference.cache
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\ApplicationInsights.config
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\PatientBillingSystem.dll.config
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\PatientBillingSystem.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\PatientBillingSystem.pdb
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\csc.exe
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\csc.exe.config
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\csc.rsp
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\csi.exe
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\csi.exe.config
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\csi.rsp
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.AppContext.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Console.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\vbc.exe
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\vbc.exe.config
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\vbc.rsp
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Antlr3.Runtime.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\EntityFramework.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.Web.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Newtonsoft.Json.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Helpers.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Http.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Mvc.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Optimization.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Razor.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.WebPages.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\WebGrease.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\EntityFramework.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Helpers.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Mvc.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Optimization.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Razor.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.WebPages.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Newtonsoft.Json.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Antlr3.Runtime.pdb
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Http.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.AI.Web.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\obj\Debug\PatientBillingSystem.csproj.CoreCompileInputs.cache
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\obj\Debug\PatientBillingSystem.csproj.CopyComplete
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\obj\Debug\PatientBillingSystem.dll
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\obj\Debug\PatientBillingSystem.pdb
+C:\Users\AMBIDI SRINIVAS\source\repos\PatientBillingSystem\PatientBillingSystem\obj\Debug\PatientBillingSystem.csprojAssemblyReference.cache

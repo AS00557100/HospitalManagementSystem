@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbPatientBillingModel3" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Doctortbl">
+    <Key>
+      <PropertyRef Name="Doctor_ID" />
+    </Key>
+    <Property Name="Doctor_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Doctor_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Gender" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="PhoneNo" Type="Int64" Nullable="false" />
+    <Property Name="D_email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="specialization" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Consultation_Fee" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="userType" Type="Int32" Nullable="false" />
+    <Property Name="D_userName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="D_Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="dbPatientBillingEntities3" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Doctortbls" EntityType="Self.Doctortbl" />
+  </EntityContainer>
+</Schema>

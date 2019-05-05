@@ -1,0 +1,124 @@
+﻿@model PatientBillingSystem.Models.Bed_Allocation
+
+@{
+    ViewBag.Title = "Bed Allotment";
+    if (Session["userType"] == null)
+    {
+        Response.Redirect("~/User/Index");
+    }
+}
+
+<h2>Bed Allotment</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @*<div class="form-group">
+            @Html.LabelFor(model => model.Allocation_No, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Allocation_No, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Allocation_No, "", new { @class = "text-danger" })
+            </div>
+        </div>*@
+
+
+    <div class="form-group">
+        <label class="control-label col-md-2" for="Patient_ID">Patient ID</label>
+        <div class="col-md-10">
+            <input class="form-control text-box single-line" data-val="true" data-val-number="The field Patient ID must be a number." id="Patient_ID" name="Patient_ID" type="text" value="" />
+            <span class="field-validation-valid text-danger" data-valmsg-for="Patient_ID" data-valmsg-replace="true"></span>
+        </div>
+    </div>
+    @*<div class="form-group">
+            @Html.LabelFor(model => model.Patient_ID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Patient_ID, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Patient_ID, "", new { @class = "text-danger" })
+            </div>
+        </div>*@
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Patient_Name, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Patient_Name, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Patient_Name, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Ward_Aolloted, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <select class="form-control valid" data-val="true" data-val-required="This field is required" id="Ward_Aolloted " name="Ward_Aolloted" type="text" value="">
+                <option value="">Select Ward</option>
+                <option value="ICU">ICU</option>
+                <option value="GENERAL">GENERAL</option>
+            </select>
+            @Html.ValidationMessageFor(model => model.Ward_Aolloted, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    @*<div class="form-group">
+            @Html.LabelFor(model => model.Ward_Aolloted, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Ward_Aolloted, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Ward_Aolloted, "", new { @class = "text-danger" })
+            </div>
+        </div>*@
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Bed_Aolloted, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <select class="form-control valid" data-val="true" data-val-required="This field is required" id="Bed_Aolloted " name="Bed_Aolloted" type="text" value="">
+                <option value="">Select Bed</option>
+                <option value="101">101</option>
+                <option value="102">102</option>
+                <option value="103">103</option>
+                <option value="104">104</option>
+                <option value="105">105</option>
+                <option value="201">201</option>
+                <option value="202">202</option>
+                <option value="203">203</option>
+                <option value="204">204</option>
+                <option value="205">205</option>
+            </select>
+            @Html.ValidationMessageFor(model => model.Bed_Aolloted, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    @*<div class="form-group">
+            @Html.LabelFor(model => model.Bed_Aolloted, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Bed_Aolloted, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Bed_Aolloted, "", new { @class = "text-danger" })
+            </div>
+        </div>*@
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Allot" class="btn btn-default" />
+            <input type="reset" value="Clear" class="btn btn-default" />
+            <a href="/Operator/BedAllocation" class="btn btn-default" role="button">Cancle</a>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-2">
+            <label class="label-success">@ViewBag.SuccessMessage</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-2">
+            <label class="label-danger">@ViewBag.Duplicatemsg</label>
+        </div>
+    </div>
+</div>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

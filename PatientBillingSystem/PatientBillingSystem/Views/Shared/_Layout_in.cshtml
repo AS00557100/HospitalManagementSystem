@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - DFHS</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div id="navbar" class="navbar navbar-default navbar-fixed-top navbar-dark bg-primary">
+        <div class="container-fluid">
+            <div class="navbar-collapse collapse">
+
+                @{ if (Convert.ToInt64(Session["userType"]) == 1)
+                    {
+                        <div class="navbar-brand active">
+                            <a href="~/User/Admin">
+                                <span class="glyphicon glyphicon-user"></span>
+                            </a>
+                        </div>
+                    }
+                    else if (Convert.ToInt64(Session["userType"]) == 2)
+                    {
+                        <div class="navbar-brand active">
+                            <a href="~/User/Operator">
+                                <span class="glyphicon glyphicon-user"></span>
+                            </a>
+                        </div>
+                    }
+                    else if (Convert.ToInt64(Session["userType"]) == 3)
+                    {
+                        <div class="navbar-brand active">
+                            <a href="~/User/Doctor">
+                                <span class="glyphicon glyphicon-user"></span>
+                            </a>
+                        </div>
+                    }
+                    else if (Convert.ToInt64(Session["userType"]) == 4)
+                    {
+                        <div class="navbar-brand active">
+                            <a href="~/User/Patient">
+                                <span class="glyphicon glyphicon-user"></span>
+                            </a>
+                        </div>
+                    }
+                }
+
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Services", "Services", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Help", "Help", "Home")</li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>@Html.ActionLink("Log out", "LogOut", "User")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Dr.Fred Hospital Services</p>
+        </footer>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    @*<script>
+            var scrollp = 0;
+            (function ($) {
+                $(document).ready(function () {
+                    $(function () {
+                        $(window).scroll(function () {
+                            // ask about the position of scroll
+
+                            if ($(this).scrollTop() < scrollp) {
+                                $('.navbar').fadeIn();
+                                scrollp = $(this).scrollTop();
+                            } else {
+                                $('.navbar').fadeOut();
+                                scrollp = $(this).scrollTop();
+                            }
+                        });
+                    });
+
+                });
+            }(jQuery));
+        </script>*@
+</body>
+</html>

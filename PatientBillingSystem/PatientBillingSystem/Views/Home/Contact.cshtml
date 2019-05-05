@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+
+@*<div class="navbar  navbar-fixed-top ">
+    <div class="container ">
+        <div class="navbar-header text-primary">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            @Html.ActionLink("Dr.Fred Hospital Services", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("Services", "Services", "Home")</li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                <li>@Html.ActionLink("Help", "Help", "Home")</li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                <li>@Html.ActionLink("Register", "patientRegister", "RegisterUser")</li>
+                <li>@Html.ActionLink("Log In", "Index", "User")</li>
+            </ul>
+        </div>
+    </div>
+</div>*@
+
+<h3>@ViewBag.Title:</h3>
+
+<address>
+    Jubliee Hills, Road.No: 2/F<br />
+    Telangana, Hyderabad 500250<br />
+    <abbr title="Phone">Phone:</abbr>
+    (+91) 9955710042
+</address>
+
+<address>
+    <strong>Appointment:</strong>   <a href="mailto:Appointment@example.com">Appointment@example.com</a><br />
+    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a>
+</address>

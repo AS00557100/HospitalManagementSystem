@@ -1,0 +1,650 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EE83E05A-6549-4C7D-8813-A787F70F877D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PatientBillingSystem</RootNamespace>
+    <AssemblyName>PatientBillingSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.4\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.4\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.4\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.4.1\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.TelemetryCorrelation">
+      <HintPath>..\packages\Microsoft.AspNet.TelemetryCorrelation.1.0.0\lib\net45\Microsoft.AspNet.TelemetryCorrelation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.5.1\lib\net46\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.4.0\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.5.1\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.5.1\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.5.1\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.5.1\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.5.1\lib\net45\Microsoft.AI.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\DoctorController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\OperatorController.cs" />
+    <Compile Include="Controllers\PatientController.cs" />
+    <Compile Include="Controllers\RegisterUserController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Admintbl.cs">
+      <DependentUpon>dbAdminUsageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Beds_Available.cs">
+      <DependentUpon>dbBedsAvailableModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Bed_Allocation.cs">
+      <DependentUpon>dbBedAllotmentModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbAdminUsageModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbAdminUsageModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbAdminUsageModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbAdminUsageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbAdminUsageModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbAdminUsageModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbBedAllotmentModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBedAllotmentModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbBedAllotmentModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBedAllotmentModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbBedAllotmentModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBedAllotmentModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbBedsAvailableModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBedsAvailableModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbBedsAvailableModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBedsAvailableModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbBedsAvailableModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBedsAvailableModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbDocAvailableModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbDocAvailableModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbDocAvailableModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbDocAvailableModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbDocAvailableModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbDocAvailableModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbDoctorUsageModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbDoctorUsageModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbDoctorUsageModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbDoctorUsageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbDoctorUsageModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbDoctorUsageModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbOperatorUsageModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbOperatorUsageModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbOperatorUsageModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbOperatorUsageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbOperatorUsageModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbOperatorUsageModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbPatientModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbPatientModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbPatientModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbPatientModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbPatientModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbPatientModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbPatientUsageModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbPatientUsageModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbPatientUsageModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbPatientUsageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbPatientUsageModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbPatientUsageModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbServicesUsageModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbServicesUsageModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbServicesUsageModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbServicesUsageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbServicesUsageModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbServicesUsageModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Doctortbl.cs">
+      <DependentUpon>dbDoctorUsageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Doc_Available.cs">
+      <DependentUpon>dbDocAvailableModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Operatortbl.cs">
+      <DependentUpon>dbOperatorUsageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Patienttbl.cs">
+      <DependentUpon>dbPatientUsageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\servicesofferedtbl.cs">
+      <DependentUpon>dbServicesUsageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\usertbl.cs">
+      <DependentUpon>dbPatientModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Images\banner_inside.jpg" />
+    <Content Include="Images\CC_blog-banner_new2-977x200.png" />
+    <Content Include="Images\gynaecologybanner.png" />
+    <Content Include="Images\hospital.jpg" />
+    <Content Include="Images\hs.jpg" />
+    <Content Include="Images\PALLIATIVE-CARE-banner.jpg" />
+    <Content Include="Models\dbAdminUsageModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbAdminUsageModel.edmx</DependentUpon>
+      <LastGenOutput>dbAdminUsageModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\dbAdminUsageModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbAdminUsageModel.edmx</DependentUpon>
+      <LastGenOutput>dbAdminUsageModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\dbBedAllotmentModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbBedAllotmentModel.edmx</DependentUpon>
+      <LastGenOutput>dbBedAllotmentModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\dbBedAllotmentModel.edmx.sql" />
+    <Content Include="Models\dbBedAllotmentModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbBedAllotmentModel.edmx</DependentUpon>
+      <LastGenOutput>dbBedAllotmentModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\dbBedsAvailableModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbBedsAvailableModel.edmx</DependentUpon>
+      <LastGenOutput>dbBedsAvailableModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\dbBedsAvailableModel.edmx.sql" />
+    <Content Include="Models\dbBedsAvailableModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbBedsAvailableModel.edmx</DependentUpon>
+      <LastGenOutput>dbBedsAvailableModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\dbDocAvailableModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbDocAvailableModel.edmx</DependentUpon>
+      <LastGenOutput>dbDocAvailableModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\dbDocAvailableModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbDocAvailableModel.edmx</DependentUpon>
+      <LastGenOutput>dbDocAvailableModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\dbDoctorUsageModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbDoctorUsageModel.edmx</DependentUpon>
+      <LastGenOutput>dbDoctorUsageModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\dbDoctorUsageModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbDoctorUsageModel.edmx</DependentUpon>
+      <LastGenOutput>dbDoctorUsageModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\dbOperatorUsageModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbOperatorUsageModel.edmx</DependentUpon>
+      <LastGenOutput>dbOperatorUsageModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\dbOperatorUsageModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbOperatorUsageModel.edmx</DependentUpon>
+      <LastGenOutput>dbOperatorUsageModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\dbPatientModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>dbPatientModel.Context.cs</LastGenOutput>
+      <DependentUpon>dbPatientModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\dbPatientModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbPatientModel.edmx</DependentUpon>
+      <LastGenOutput>dbPatientModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\dbPatientUsageModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbPatientUsageModel.edmx</DependentUpon>
+      <LastGenOutput>dbPatientUsageModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\dbPatientUsageModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbPatientUsageModel.edmx</DependentUpon>
+      <LastGenOutput>dbPatientUsageModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\dbServicesUsageModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbServicesUsageModel.edmx</DependentUpon>
+      <LastGenOutput>dbServicesUsageModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\dbServicesUsageModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbServicesUsageModel.edmx</DependentUpon>
+      <LastGenOutput>dbServicesUsageModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EntityDeploy Include="Models\dbPatientModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>dbPatientModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\dbPatientModel.edmx.diagram">
+      <DependentUpon>dbPatientModel.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\dbPatientUsageModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>dbPatientUsageModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\dbPatientUsageModel.edmx.diagram">
+      <DependentUpon>dbPatientUsageModel.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\dbOperatorUsageModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>dbOperatorUsageModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\dbOperatorUsageModel.edmx.diagram">
+      <DependentUpon>dbOperatorUsageModel.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\dbDoctorUsageModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>dbDoctorUsageModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\dbDoctorUsageModel.edmx.diagram">
+      <DependentUpon>dbDoctorUsageModel.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\dbAdminUsageModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>dbAdminUsageModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\dbAdminUsageModel.edmx.diagram">
+      <DependentUpon>dbAdminUsageModel.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\dbServicesUsageModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>dbServicesUsageModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\dbServicesUsageModel.edmx.diagram">
+      <DependentUpon>dbServicesUsageModel.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\dbBedsAvailableModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>dbBedsAvailableModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\dbBedsAvailableModel.edmx.diagram">
+      <DependentUpon>dbBedsAvailableModel.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\dbDocAvailableModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>dbDocAvailableModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\dbDocAvailableModel.edmx.diagram">
+      <DependentUpon>dbDocAvailableModel.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\dbBedAllotmentModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>dbBedAllotmentModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\dbBedAllotmentModel.edmx.diagram">
+      <DependentUpon>dbBedAllotmentModel.edmx</DependentUpon>
+    </Content>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\Scroll.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\User\Index.cshtml" />
+    <Content Include="Views\Home\Services.cshtml" />
+    <Content Include="Views\RegisterUser\userRegistarer.cshtml" />
+    <Content Include="Views\Home\Help.cshtml" />
+    <Content Include="Views\User\Admin.cshtml" />
+    <Content Include="Views\RegisterUser\operatorRegister.cshtml" />
+    <Content Include="Views\RegisterUser\doctorRegister.cshtml" />
+    <Content Include="Views\RegisterUser\adminRegister.cshtml" />
+    <Content Include="Views\User\Operator.cshtml" />
+    <Content Include="Views\User\Doctor.cshtml" />
+    <Content Include="Views\User\Patient.cshtml" />
+    <Content Include="Views\Admin\PatientList.cshtml" />
+    <Content Include="Views\Admin\OperatorList.cshtml" />
+    <Content Include="Views\Admin\DoctorList.cshtml" />
+    <Content Include="Views\Admin\AdminList.cshtml" />
+    <Content Include="Views\Operator\PatientList.cshtml" />
+    <Content Include="Views\RegisterUser\patientRegister.cshtml" />
+    <Content Include="Views\Admin\ServicesList.cshtml" />
+    <Content Include="Views\RegisterUser\servicesRegister.cshtml" />
+    <Content Include="Views\Doctor\PatientsAlloted.cshtml" />
+    <Content Include="Views\Doctor\EditAvailability.cshtml" />
+    <Content Include="Views\Doctor\EditPatientStatus.cshtml" />
+    <Content Include="Views\Operator\DoctorList.cshtml" />
+    <Content Include="Views\Operator\BillGeneration.cshtml" />
+    <Content Include="Views\Patient\ViewServices.cshtml" />
+    <Content Include="Views\Patient\PatientDetails.cshtml" />
+    <Content Include="Views\Operator\BedsAvailability.cshtml" />
+    <Content Include="Views\Operator\DoctorAvailability.cshtml" />
+    <Content Include="Views\Operator\BedAllocation.cshtml" />
+    <Content Include="Views\Operator\Allot.cshtml" />
+    <Content Include="Views\Operator\BillGenerate.cshtml" />
+    <Content Include="Views\Admin\Edit.cshtml" />
+    <Content Include="Views\Shared\_Layout_in.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61359</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:61359/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

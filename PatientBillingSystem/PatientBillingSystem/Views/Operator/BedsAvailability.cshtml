@@ -1,0 +1,56 @@
+﻿@model IEnumerable<PatientBillingSystem.Models.Beds_Available>
+
+@{
+    ViewBag.Title = "Beds Available";
+    if (Session["userType"] == null)
+    {
+        Response.Redirect("~/User/Index");
+    }
+}
+
+<h2>Beds Available</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ward)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.bedNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.bed_Availability)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ward)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.bedNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.bed_Availability)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.service_No })
+            </td>
+        </tr>
+    }
+
+</table>
+<div>
+    <br />
+</div>
+<div class="form-group">
+    <div class="col-md-offset-1 col-md-10 center-block">
+        <a href="/User/Operator" class="btn btn-default" role="button">Go Back</a>
+    </div>
+</div>
+<div>
+    <br />
+</div>

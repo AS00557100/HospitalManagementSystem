@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbPatientBillingModel2" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Operatortbl">
+    <Key>
+      <PropertyRef Name="Operator_ID" />
+    </Key>
+    <Property Name="Operator_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Operator_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Gender" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="PhoneNo" Type="Int64" Nullable="false" />
+    <Property Name="O_email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="O_address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="userType" Type="Int32" Nullable="false" />
+    <Property Name="O_userName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="O_Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="dbPatientBillingEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Operatortbls" EntityType="Self.Operatortbl" />
+  </EntityContainer>
+</Schema>
